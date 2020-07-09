@@ -6,16 +6,13 @@
 /*   By: lakazzie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/08 15:47:31 by lakazzie          #+#    #+#             */
-/*   Updated: 2020/07/09 11:32:27 by lakazzie         ###   ########.fr       */
+/*   Updated: 2020/07/09 15:20:02 by lakazzie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int ft_putchat(char c)
-{
-	write(1, &c, 1);
-}
+int ft_putchat(char c);
 
 void	ft_print_numbers(void)
 {
