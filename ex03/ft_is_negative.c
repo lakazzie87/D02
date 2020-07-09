@@ -6,7 +6,7 @@
 /*   By: lakazzie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/09 11:41:08 by lakazzie          #+#    #+#             */
-/*   Updated: 2020/07/09 15:20:45 by lakazzie         ###   ########.fr       */
+/*   Updated: 2020/07/09 15:59:03 by lakazzie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int ft_putchar(char c);
 
-void ft_is_negative
+void ft_is_negative(void)
 {
 	int n
 
