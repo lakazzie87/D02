@@ -6,16 +6,13 @@
 /*   By: lakazzie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/09 11:49:07 by lakazzie          #+#    #+#             */
-/*   Updated: 2020/07/09 13:45:34 by lakazzie         ###   ########.fr       */
+/*   Updated: 2020/07/09 15:21:02 by lakazzie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unitstd.h>
 
-int ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+int ft_putchar(char c);
 
 void 	ft_print_comma(void)
 {
