@@ -6,11 +6,12 @@
 /*   By: lakazzie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/09 11:49:07 by lakazzie          #+#    #+#             */
-/*   Updated: 2020/07/09 15:21:02 by lakazzie         ###   ########.fr       */
+/*   Updated: 2020/07/12 10:40:07 by lakazzie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unitstd.h>
+#include <stdio.h>
+#include <unistd.h>
 
 int ft_putchar(char c);
 
@@ -22,18 +23,18 @@ void 	ft_print_comma(void)
 
 void	ft_print_comb(void)
 {
-	char	num1
-	char 	num2
-	char	num3
+	char	num1;
+	char 	num2;
+	char	num3;
 
 	num1 = '0' - 1 ;
-	while(++num1 <= '9')
+	while(num1 ++ <= '9')
 	{
 		num2 = '0' -1;
-   		while(++num2 <= '9')
+   		while(num2 ++ <= '9')
 		{
 			num3 = '0' -1;
-			while(++num3 <= '9')
+			while(num3 ++ <= '9')
 			{
 				if(num1 < num2 && num2 < num3)
 				{
